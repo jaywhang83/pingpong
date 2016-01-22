@@ -7,6 +7,8 @@ describe('pingPong', function() {
   });
   it('it will print "pong" if userInputNumber is divisible by 5', function() {
     expect(pingPong(5)).to.equal("pong");
-  })
-
+  });
+  it('it will print 1 if userInputNumber is not divisible by 3, 5, or 15', function() {
+    expect(pingPong(1)).to.equal(1);
+  });
 });

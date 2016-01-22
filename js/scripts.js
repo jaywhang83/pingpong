@@ -9,6 +9,9 @@ function pingPong(userInputNumber) {
     else if (userInputNumber % 5 === 0) {
       return "pong";
     }
+    else {
+      return index; 
+    }
   }
 
 }
