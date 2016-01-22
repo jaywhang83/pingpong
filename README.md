@@ -6,7 +6,7 @@
 
 ## Description
 
-_Lets user input a number then returns a range of number from 1 to the number inputted by user with numbers divisible by 3 replaced with "ping", numbers divisible by 5 replaced with "pong" or numbers divisible by 15 by "pingpong". _
+Lets user input a number then returns a range of number from 1 to the number inputted by user with numbers divisible by 3 replaced with "ping", numbers divisible by 5 replaced with "pong" or numbers divisible by 15 by "pingpong".
 
 ## Setup/Installation Requirements
 
