@@ -10,45 +10,46 @@
     </title>
   </head>
   <body>
-  <div class= "headingSection">
-    <h1>Ping-Pong</h1>
-  </div>
-  <div class ="container">
-    <div class = "sideBar">
-      <h2>About Ping Pong</h2>
-      <h3>Created by:</h3>
-          <p>Jay Whang</p>
-      <h3>Github Username/URL</h3>
-        <p><a href ="#" alt = "Github page for ping-pong">pingpong</a></p>
-      <h3>Level 2 Test for:</h3>
-        <p>Java</p>
+    <div class= "headingSection">
+      <h1>Ping-Pong</h1>
     </div>
+    <div class ="container">
+      <div class = "sideBar">
+        <h2><span>About Ping Pong</span></h2>
+        <hr>
+        <h3><span>Created by:</span></h3>
+          <p id = "name"><span>Jay Whang</span></p>
+        <h3><span>Github Username/URL</span></h3>
+          <p><a href ="https://github.com/jaywhang83/pingpong" target = "_blank" alt = "Github page for ping-pong"><span>pingpong<span></a></p>
+        <h3><span>Level 2 Test for:</span></h3>
+          <p id = "levelTwo"><span>Java</span></p>
+      </div>
 
-    <div class = "mainContainer">
-      <h1>Let's play!</h1>
-      <h3>Rules:</h3>
-      <p>Ping Pong will count uo to your number from 1 qwith the following exception:</p>
-        <ol>
-          <li>Numbers divisible by 3 becomes "ping"</li>
-          <li>Numbers divisible by 5 becomes "pong"</li>
-          <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
-        </ol>
+      <div class = "mainContainer">
+        <h1>Let's play!</h1>
+        <h3>Rules:</h3>
+        <p>Ping Pong will count up to your number from 1 with the following exception:</p>
+        <div class = "orderListContainer">
+          <ol>
+            <li>Numbers divisible by 3 becomes "ping"</li>
+            <li>Numbers divisible by 5 becomes "pong"</li>
+            <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
+          </ol>
+        </div>
+    <!--  </div> -->
+
+      <!--<div class = "formContainer">-->
+        <form id="countUp">
+          <label for="number">Enter your number here:</label>
+          <input id="number" type="text">
+          <button type="submit" class="btn">Ping Pong!</button>
+        </form>
+      </div>
+      <div class="result">
+        <ul id ="result">
+
+        </ul>
+      </div>
     </div>
-    <div>
-      <form id="countUp">
-        <label for="number">Enter your number here:</label>
-        <input id="number" type="text">
-        <button type="submit" class="btn">Ping Pong!</button>
-      </form>
-    </div>
-
-
-  </div>
-
-  <div class="result">
-    <ul id ="result">
-
-    </ul>
-  </div>
   </body>
 </html>

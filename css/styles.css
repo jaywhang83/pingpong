@@ -6,12 +6,49 @@
   justify-content: center;
 }
 
+.mainContainer {
+  float: right;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+
 .sideBar {
   background-color: lightgreen;
   width: 300px;
-  height: 800px;
+  height: 400px;
   float:left;
-  margin-right: 50px;
   margin-top: 30px;
+  margin-left: -40px;
   padding-left: 20px;
+  position: fixed;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.sideBar #levelTwo, #name {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+hr {
+margin-right: 20px;
+}
+a {
+  font-weight: bold;
+}
+
+
+.orderListContainer {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.result {
+  margin-top: 50px;
+  margin-left: 350px;
 }
