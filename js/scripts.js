@@ -1,6 +1,6 @@
 function pingPong(userInputNumber) {
   for (var index = 1; index <= userInputNumber; index++) {
-    if (userInputNumber % 15 === 0) {
+    if (index % 15 === 0) {
       console.log("pingpong");
       return "pingpong";
     }
@@ -22,6 +22,13 @@ function pingPong(userInputNumber) {
 
 $(document).ready(function(){
   $("form").submit(function(event){
+    var userInputNumber = parseInt($("#number").val());
+    var numberHolder = " ";
+    for (var i = 1; i <= userInputNumber; i++) {
+      numberHolder +=pingPong(userInputNumber);
+
+    }
+    $("#result").append(numberHolder);
 
     event.preventDefault();
   });
