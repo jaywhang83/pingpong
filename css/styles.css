@@ -1,9 +1,10 @@
-/* Styling for main body */
+
+/************ Styling for main body *************/
 body {
   background-color: #d9d9d9;
 }
 
-/* Styling for main section */
+/************ Styling for main section ***********/
 .headingSection {
   height: 150px;
   background-color: #e6b219;
@@ -12,7 +13,7 @@ body {
   justify-content: center;
 }
 
-/* Styling for side bar */
+/************* Styling for side bar **************/
 .sideBar {
   background-color: #97C977;
   width: 300px;
@@ -43,7 +44,7 @@ a {
   font-weight: bold;
 }
 
-/* Styling for mainContainer */
+/************ Styling for mainContainer ***********/
 .mainContainer {
   float: right;
   margin-top: 20px;
@@ -59,7 +60,7 @@ a {
   margin-bottom: 30px;
 }
 
-/* Styling for result section */
+/************ Styling for result section ***********/
 .result {
   margin-top: 50px;
   margin-left: 350px;
