@@ -3,6 +3,9 @@ function pingPong(userInputNumber) {
     if(userInputNumber % 3 === 0) {
       return "ping";
     }
+    else if (userInputNumber % 5 === 0) {
+      return "pong"; 
+    }
   }
 
 }
