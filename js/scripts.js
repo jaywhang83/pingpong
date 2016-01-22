@@ -1,16 +1,20 @@
 function pingPong(userInputNumber) {
   for (var index = 1; index <= userInputNumber; index++) {
     if (userInputNumber % 15 === 0) {
+      console.log("pingpong");
       return "pingpong";
     }
-    else if(userInputNumber % 3 === 0) {
+    else if(index % 3 === 0) {
+      console.log("ping");
       return "ping";
     }
-    else if (userInputNumber % 5 === 0) {
+    else if (index% 5 === 0) {
+      console.log("pong");
       return "pong";
     }
     else {
-      return index; 
+      console.log(index);
+      return index;
     }
   }
 
