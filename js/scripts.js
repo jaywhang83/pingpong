@@ -30,12 +30,15 @@ $(document).ready(function(){
     }
     else {
       var numberHolder = pingPong(userInputNumber);
-      $("#result").empty();
-      //console.log(numberHolder);
       numberHolder.forEach(function(index){
         $("#result").append("<li>" + index + "</li>");
       });
     }
     event.preventDefault();
   });
+
+  $("#clear").click(function(event) {
+    $("#result").empty();
+  });
+  event.preventDefault();
 });
